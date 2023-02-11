@@ -129,10 +129,8 @@ function App() {
         </p>
         <img alt="" src={coaching}></img>
       </div>
-      <div
-        id="skills"
-        className="text-white py-8 flex justify-center bg-gradient-to-r from-sky-900 to-indigo-900 "
-      >
+
+      <div id="skills" className="text-white py-12 flex justify-center  ">
         SKILLS
       </div>
       <div className="text-white grid grid-cols-4 md:grid-cols-2 justify-items-center bg-gradient-to-r from-sky-500 to-indigo-900">
@@ -149,7 +147,7 @@ function App() {
         <ul>Redux</ul>
         <ul>Jest/Unit Testing</ul>
       </div>
-      <div className="text-white grid justify-contents-center bg-gradient-to-r from-sky-500 to-indigo-900">
+      <div className="text-white grid py-12 justify-contents-center bg-gradient-to-r from-sky-500 to-indigo-900">
         <form action="mailto:lharihar@uwaterloo.ca" method="post">
           CONTACT ME Name: <input type="text" name="Name"></input>
           Email: <input type="text" name="Email"></input>
