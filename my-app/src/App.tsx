@@ -8,22 +8,25 @@ function App() {
   return (
     // <div className="grid grid-rows-4 bg-[url(https://images.unsplash.com/photo-1489189642444-0709966aec44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)] ">
     <div className="grid sm:grid-cols-1 grid-rows-7 text-slate-700  z-50">
-      <nav className="px-2 z-50 bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
-        <div className="container flex flex-wrap items-center justify-between mx-auto">
-          <img
-            src={donating}
-            className="h-20 mr-3 sm:h-10"
-            alt="Flowbite Logo"
-          />
-          <span className="text-4xl font-semibold whitespace-nowrap dark:text-white">
-            Lakshman Hariharan
-          </span>
+      <nav className="px-2 z-50  border-gray-200 bg-gradient-to-r from-sky-900 to-indigo-900">
+        <div className="container  flex flex-wrap items-center justify-between mx-auto">
+          <div className="flex sm:justify-center ">
+            <img src={donating} className="h-24 mr-3 xl" alt="Flowbite Logo" />
+          </div>
+          <div className="flex justify-center sm: flex-col">
+            <span className="text-4xl font-semibold whitespace-nowrap dark:text-white">
+              Lakshman Hariharan
+            </span>
+            <p className="flex place-content-center text-2xl text-white px-4 whitespace-normal ">
+              Front End Software Engineer
+            </p>
+          </div>
 
           <div
             className="hidden w-full md:block md:w-auto"
             id="navbar-multi-level"
           >
-            <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  dark:border-gray-700">
               <li>
                 <a
                   href="#home"
@@ -73,11 +76,11 @@ function App() {
       >
         {/* <a href="mailto:lharihar@uwaterloo.ca">Email</a> */}
 
-        <p className="flex place-content-center text-2xl text-white px-4 whitespace-normal ">
-          Front End Software Engineer
-        </p>
         <div className="flex place-content-center space-x-8">
-          <a className=" hover:animate-[pulse_1.5s]" href={resume}>
+          <a
+            className=" hover:animate-[pulse_1.5s]"
+            href="https://drive.google.com/file/d/1ri6q6CdXIXWJEO63b7Lt0uyG661GfOBM/view?usp=sharing"
+          >
             {" "}
             Resume
           </a>
