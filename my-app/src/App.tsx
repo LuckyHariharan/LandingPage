@@ -104,24 +104,26 @@ function App() {
         id="about"
         className="grid sm:grid-cols-2 md:grid-cols-[1fr_1fr] text-white h-screen text-xl p-8  bg-gradient-to-r from-sky-500 to-indigo-900 "
       >
-        <div className="flex flex-col place-content-center space-y-12">
-          <h1 className="text-3xl ">I am a software engineer</h1>
+        <div className="flex flex-col place-content-center space-y-10">
+          <h1 className="text-3xl flex align-center ">
+            I am a software engineer
+          </h1>
           <p className="">
             with a passion for using front-end tools to thoughtfully improve the
             user experience. As a generalist I excel at learning new
             technologies and taking on challenging problems.
           </p>{" "}
         </div>
-        <img alt="" className="h-120 font-size " src={hero1}></img>
+        <img alt="" className="h-88 font-size mt-12" src={hero1}></img>
       </div>
 
       <div className="grid text-white h-screen justify-items-center bg-gradient-to-r from-sky-500 to-indigo-900 ">
-        PROJECTS I have built a few games using React for students to practice
-        mental math skills. Additionally, I developed a coaching dashboard to
-        increase user engagement and allow coaches to view their students
-        progress in one place. Lastly I have setup a CI/CD workflow in GitHub
-        Actions. Future projects include: ecommerce website, full stack feature,
-        and a mobile skillify app.
+        <h1 className="text-2xl">PROJECTS</h1> I have built a few games using
+        React for students to practice mental math skills. Additionally, I
+        developed a coaching dashboard to increase user engagement and allow
+        coaches to view their students progress in one place. Lastly I have
+        setup a CI/CD workflow in GitHub Actions. Future projects include:
+        ecommerce website, full stack feature, and a mobile skillify app.
       </div>
       <div
         id="skills"
