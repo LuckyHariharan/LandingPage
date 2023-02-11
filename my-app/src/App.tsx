@@ -2,6 +2,7 @@ import resume from "./LakshmanHariharanresume.jpg";
 import hero1 from "./busy-project-manager-overwhelmed-by-work.png";
 import hero2 from "./hero2.png";
 import donating from "./person-donating.png";
+import coaching from "./coaching.png";
 import "./App.css";
 
 function App() {
@@ -117,17 +118,20 @@ function App() {
         <img alt="" className="h-88 font-size mt-12" src={hero1}></img>
       </div>
 
-      <div className="grid text-white h-screen justify-items-center bg-gradient-to-r from-sky-500 to-indigo-900 ">
-        <h1 className="text-2xl">PROJECTS</h1> I have built a few games using
-        React for students to practice mental math skills. Additionally, I
-        developed a coaching dashboard to increase user engagement and allow
-        coaches to view their students progress in one place. Lastly I have
-        setup a CI/CD workflow in GitHub Actions. Future projects include:
-        ecommerce website, full stack feature, and a mobile skillify app.
+      <div className="grid grid-rows-[40px_40px_1fr_1fr] text-white h-screen  justify-items-center bg-gradient-to-r from-sky-500 to-indigo-900 ">
+        <h1 className="text-4xl">PROJECTS</h1>
+        <div className="order-0 -space-y-4">
+          <p className="text-2xl">Coaching Dashboard</p>{" "}
+        </div>
+        <p>
+          Developed a coaching dashboard feature at Skillify, to allow coaches
+          to view every students progress at a glance
+        </p>
+        <img alt="" src={coaching}></img>
       </div>
       <div
         id="skills"
-        className="text-white flex justify-center bg-gradient-to-r from-sky-900 to-indigo-900 "
+        className="text-white py-8 flex justify-center bg-gradient-to-r from-sky-900 to-indigo-900 "
       >
         SKILLS
       </div>
