@@ -10,7 +10,7 @@ function App() {
     // <div className="grid grid-rows-4 bg-[url(https://images.unsplash.com/photo-1489189642444-0709966aec44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)] ">
     <div className="grid sm:grid-cols-1  text-slate-700  z-50">
       <nav className="px-2 z-50  border-gray-200 bg-gradient-to-r from-sky-900 to-indigo-900">
-        <div className=" flex flex-wrap justify-center md:justify-between mx-auto">
+        <div className=" flex flex-wrap justify-center md:justify-center mx-auto">
           <div className="">
             <img
               src={donating}
@@ -18,7 +18,7 @@ function App() {
               alt="Flowbite Logo"
             />
           </div>
-          <div className="flex justify-center sm: flex-col">
+          <div className="flex justify-center flex-col">
             <span className="text-4xl font-semibold whitespace-nowrap dark:text-white">
               Lakshman Hariharan
             </span>
@@ -50,7 +50,7 @@ function App() {
           </div>
 
           <div
-            className="hidden w-full text-lg md:block md:w-auto"
+            className="md:hidden  w-full text-lg  md:w-auto"
             id="navbar-multi-level"
           >
             <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg  md:flex-row md:space-x-8 md:mt-0  ">
@@ -91,13 +91,10 @@ function App() {
         </div>
       </nav>
 
-      <div
-        className="hidden w-full md:block md:w-auto "
-        id="navbar-default"
-      ></div>
+      <div className="hidden w-full  md:w-auto " id="navbar-default"></div>
       <div
         id="about"
-        className=" w-full h-12 text-lg text-white space-y-4  bg-gradient-to-r from-sky-800 to-indigo-900  "
+        className=" w-full h-4 text-lg text-white space-y-4  bg-gradient-to-r from-sky-600 to-indigo-900  "
       >
         {/* <a href="mailto:lharihar@uwaterloo.ca">Email</a> */}
 
