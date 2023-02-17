@@ -4,6 +4,7 @@ import hero2 from "./hero2.png";
 import donating from "./person-donating.png";
 import coaching from "./coaching.png";
 import "./App.css";
+import AlienPathway from "./ap.png";
 
 function App() {
   return (
@@ -149,15 +150,32 @@ function App() {
           </div>
           <p>
             Developed a coaching dashboard feature at Skillify, to allow coaches
-            to view every students progress at a glance
+            to view every students progress at a glance. Front-end TypeScript
+            React TailwindCSS
           </p>
-          <img alt="" src={coaching}></img>
+          <img alt="" src={coaching} className="h-80"></img>
+          <div className="order-0 -space-y-4">
+            <p className="text-2xl">React Games</p>{" "}
+          </div>
+          <a href="https://www.mathchamp.ca/games/AlienPathway">
+            <p>
+              Developed an alienpathway boardgame where students practice mental
+              math to create a path. Front-end: React, TypeScript Back-end
+              Next.js
+            </p>
+            <img alt="" src={AlienPathway} className="h-80"></img>
+          </a>
         </div>
       </div>
-      <div className="text-white grid py-12 justify-contents-center bg-gradient-to-r from-sky-500 to-indigo-900">
-        <form action="mailto:lharihar@uwaterloo.ca" method="post">
+      <div className="text-black grid py-12 justify-contents-center bg-gradient-to-r from-sky-500 to-indigo-900">
+        <form
+          action="https://getform.io/f/501c4b9f-b28b-46aa-a746-858fb243f3da"
+          method="POST"
+        >
           CONTACT ME Name: <input type="text" name="Name"></input>
           Email: <input type="text" name="Email"></input>
+          Message: <input type="text" name="Message"></input>
+          <button type="submit">Send</button>
         </form>
       </div>
     </div>
