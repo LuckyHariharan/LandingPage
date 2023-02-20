@@ -105,12 +105,15 @@ function App() {
       <div className="grid sm:grid-cols-2 md:grid-cols-[1fr_1fr] text-white h-screen text-xl p-8  bg-gradient-to-r from-purple-500 to-indigo-900 ">
         <div className="flex flex-col place-content-center space-y-10">
           <h1 className="text-3xl flex align-center ">
-            I am a software engineer
+            Hi! I'm Lucky, and I am a front-end developer with a background in
+            mathematics.
           </h1>
           <p className="">
-            with a passion for using front-end tools to thoughtfully improve the
-            user experience. As a generalist I excel at learning new
-            technologies and taking on challenging problems.
+            I spend my time working with the latest technologies and have an eye
+            for design and good strategy.with a passion for using front-end
+            tools to thoughtfully improve the user experience. As a generalist I
+            excel at learning new technologies and taking on challenging
+            problems.
           </p>{" "}
         </div>
         <img alt="" className="h-88 font-size mt-12" src={hero1}></img>
@@ -176,7 +179,9 @@ function App() {
           CONTACT ME Name: <input type="text" name="Name"></input>
           Email: <input type="text" name="Email"></input>
           Message: <input type="text" name="Message"></input>
-          <button type="submit">Send</button>
+          <button type="submit" className="border-2">
+            Send
+          </button>
         </form>
       </div>
     </div>
