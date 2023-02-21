@@ -53,7 +53,7 @@ function App() {
               </a>
               <a
                 className="hover:animate-[pulse_1.5s]"
-                href="https://github.com/LuckyHariharan"
+                href="https://www.linkedin.com/in/lakshman-hariharan"
               >
                 LinkedIn
               </a>
