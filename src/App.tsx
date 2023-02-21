@@ -10,16 +10,21 @@ import tailwindcsspng from "./tailwindcss.png";
 import htmlpng from "./hmlt5png.png";
 import TypeScriptpng from "./typescriptpng.png";
 import css from "./CSSJPEG.jpg";
-// import graphqlpng from "./GraphQLJPEG.JFIF";
+import graphqlpng from "./graphql.png";
 import nextjspng from "./NextJSPNG.png";
 import agilepng from "./agilepng.png";
 import pythonpng from "./pythonpng.png";
+import git from "./git.png";
+import jest from "./JESTWEBP.webp";
+import redux from "./Reduxpng.png";
+import R from "./RPNG.png";
+import VBA from "./vba.png";
 import personusing from "./person-dealing-with-a-social-media-issue.png";
 
 function App() {
   return (
     // <div className="grid grid-rows-4 bg-[url(https://images.unsplash.com/photo-1489189642444-0709966aec44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)] ">
-    <div className="grid font-roboto  text-slate-700  z-50">
+    <div className="grid w-full min-w-screen font-roboto  text-slate-700  z-50">
       <nav className="px-2 z-50  border-gray-200 bg-gradient-to-r from-purple-900 to-indigo-900">
         <div className="mr-0 md:mr-24 flex flex-wrap justify-center md:justify-center mx-auto">
           <div className=" ">
@@ -70,20 +75,21 @@ function App() {
                   About
                 </a>
               </li>
-              <li>
-                <a
-                  href="#skills"
-                  className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >
-                  Skills
-                </a>
-              </li>
+
               <li>
                 <a
                   href="#projects"
                   className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   Projects
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#skills"
+                  className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                >
+                  Skills
                 </a>
               </li>
               <li>
@@ -132,90 +138,141 @@ function App() {
         ></img>
       </div>
       <div
+        id="projects"
+        className=" py-20 text-white items-center bg-gradient-to-r from-purple-500 to-indigo-900 "
+      >
+        <h1 className="text-4xl flex justify-center ">PROJECTS</h1>
+        <div className=" place-items-center">
+          <div>
+            <p className="text-2xl flex justify-center">Coaching Dashboard</p>{" "}
+            <div className="grid  md:grid-cols-[20px_140px_1fr_20px] grid-cols-1">
+              <div className=" md:h-2"></div>
+              <p className="py-4 ">
+                Developed a coaching dashboard to allow Skillify coaches to view
+                every students progress at a glance. The tech stack includes:
+                TypeScript, React, TailwindCSS, Redux, and Jest for unit
+                testing.
+              </p>
+              <img alt="" src={coaching} className="h-80 w-full  "></img>
+              <div className="md:h-2"></div>
+            </div>
+          </div>
+
+          <div className="  ">
+            <p className="text-2xl flex justify-center">React Games</p>{" "}
+          </div>
+          <div>
+            <a
+              className="grid  md:grid-cols-[20px_140px_1fr_20px] grid-cols-1"
+              href="https://www.mathchamp.ca/games/AlienPathway"
+            >
+              <div className="md:h-2"></div>
+              <p>
+                Fully scoped and built an alienpathway boardgame where students
+                practice mental math to create a path. Front-end: React,
+                TypeScript Back-end Next.js
+              </p>
+              <img alt="" src={AlienPathway} className="h-80  w-120"></img>
+              <div className="md:h-2"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
         id="skills"
         className="text-white py-12 flex justify-center bg-gradient-to-r from-purple-500 to-indigo-900 "
       >
         <h1 className="text-4xl">SKILLS</h1>
       </div>
-      <div className="text-white grid grid-cols-3  text-2xl border-2 justify-items-center bg-gradient-to-r from-purple-500 to-indigo-900">
-        <ul>
-          React
-          <img className="h-16" src={reactpng} />
-        </ul>
-        <ul>
+      <div className="text-white  grid grid-cols-3 sm:grid-col:2 text-xl space-y-2 justify-items-center align-middle bg-gradient-to-r from-purple-500 to-indigo-900">
+        <div>
+          <p className="align-middle">React</p>
+          <img className="h-16 w-full" src={reactpng} alt="" />
+        </div>
+        <div>
           TypeScript
-          <img className="h-16" src={TypeScriptpng} />
-        </ul>
-        <ul>
-          JavaScript <img className="h-16" src={JavaScriptpng} />
-        </ul>
+          <img className="h-16 w-16" src={TypeScriptpng} alt="" />
+        </div>
+        <div>
+          JavaScript <img className="h-16 w-16" alt="" src={JavaScriptpng} />
+        </div>
 
-        <ul>
-          TailwindCSS <img className="h-16" src={tailwindcsspng} />
-        </ul>
+        <div>
+          TailwindCSS <img className="h-16 w-16" alt="" src={tailwindcsspng} />
+        </div>
 
-        <ul>
-          HTML5 <img className="h-16" src={htmlpng} />
-        </ul>
-        <ul>
-          CSS3 <img className="h-16" src={css} />
-        </ul>
-        <ul>GraphQL</ul>
-        <ul>Next.js</ul>
-        <ul>Agile</ul>
-        <ul>Python</ul>
-        <ul>Git</ul>
-        <ul>Jest</ul>
-        <ul>Redux</ul>
-        <ul>R</ul>
-        <ul>VBA</ul>
-      </div>
-
-      <div
-        id="projects"
-        className=" flex flex-col py-20 text-white items-center bg-gradient-to-r from-purple-500 to-indigo-900 "
-      >
-        <h1 className="text-4xl ">PROJECTS</h1>
-        <div className="flex flex-col place-items-center">
-          <p className="text-2xl">Coaching Dashboard</p>{" "}
-          <div className="grid  md:grid-cols-[20px_160px_1fr] grid-cols-1">
-            <div className=" md:h-2"></div>
-            <p className="py-4 ">
-              Developed a coaching dashboard feature at Skillify, to allow
-              coaches to view every students progress at a glance. Front-end
-              TypeScript React TailwindCSS
-            </p>
-            <img alt="" src={coaching} className="h-80 "></img>
-          </div>
-          <div className="  ">
-            <p className="text-2xl">React Games</p>{" "}
-          </div>
-          <div>
-            <a href="https://www.mathchamp.ca/games/AlienPathway">
-              <p>
-                Developed an alienpathway boardgame where students practice
-                mental math to create a path. Front-end: React, TypeScript
-                Back-end Next.js
-              </p>
-              <img alt="" src={AlienPathway} className="h-80 "></img>
-            </a>
-          </div>
+        <div>
+          HTML5 <img className="h-16 w-16" alt="" src={htmlpng} />
+        </div>
+        <div>
+          CSS3 <img className="h-16 w-16" alt="" src={css} />
+        </div>
+        <div>
+          GraphQL <img className="h-16 w-16" alt="" src={graphqlpng} />
+        </div>
+        <div>
+          Next.js <img className="h-16 w-16" alt="" src={nextjspng} />
+        </div>
+        <div>
+          Agile <img className="h-16 w-16" alt="" src={agilepng} />
+        </div>
+        <div>
+          Python <img className="h-16 w-16" alt="" src={pythonpng} />
+        </div>
+        <div>
+          Git <img className="h-16 w-16" alt="" src={git} />
+        </div>
+        <div>
+          Jest <img className="h-16 w-16" alt="" src={jest} />
+        </div>
+        <div>
+          Redux <img className="h-16 w-16" alt="" src={redux} />
+        </div>
+        <div>
+          R <img className="h-16 w-16" alt="" src={R} />
+        </div>
+        <div>
+          VBA <img className="h-16 w-16" alt="" src={VBA} />
         </div>
       </div>
-      <div className="text-black py-12 bg-gradient-to-r from-purple-500 to-indigo-900">
-        <img src={personusing} alt="" className="h-40" />
+
+      <div className="text-black py-12 grid grid-cols-[20px_1fr_20px] bg-gradient-to-r from-purple-500 to-indigo-900">
+        <div></div>
         <form
           action="https://getform.io/f/501c4b9f-b28b-46aa-a746-858fb243f3da"
           method="POST"
         >
-          CONTACT ME Name: <input type="text" name="Name"></input>
-          Email: <input type="text" name="Email"></input>
-          Message: <input type="text" name="Message"></input>
-          <button type="submit" className="border-2">
-            Send
-          </button>
+          <div className="flex flex-col space-y-4">
+            <label htmlFor="name">Name:</label>
+            <input type="text" name="Name" id="name" className="border-2 p-2" />
+
+            <label htmlFor="email">Email:</label>
+            <input
+              type="email"
+              name="Email"
+              id="email"
+              className="border-2 p-2"
+            />
+
+            <label htmlFor="message">Message:</label>
+            <textarea
+              name="Message"
+              id="message"
+              className="border-2 p-2 h-40"
+            ></textarea>
+            <div>
+              <button
+                type="submit"
+                className="border-2 w-full flex justify-center"
+                name="Submit"
+              >
+                <img src={personusing} alt="" className="h-16 mr-8" />
+              </button>
+            </div>
+          </div>
         </form>
       </div>
+      <div className="bg-gradient-to-r from-purple-500 to-indigo-900"> </div>
     </div>
   );
 }
