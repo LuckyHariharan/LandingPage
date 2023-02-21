@@ -153,7 +153,7 @@ function App() {
                 TypeScript, React, TailwindCSS, Redux, and Jest for unit
                 testing.
               </p>
-              <img alt="" src={coaching} className="h-80 w-full  "></img>
+              <img alt="" src={coaching} className="h-80 w-120  "></img>
               <div className="md:h-2"></div>
             </div>
           </div>
