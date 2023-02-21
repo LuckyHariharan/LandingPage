@@ -153,7 +153,7 @@ function App() {
                 TypeScript, React, TailwindCSS, Redux, and Jest for unit
                 testing.
               </p>
-              <img alt="" src={coaching} className="h-80 w-120  "></img>
+              <img alt="" src={coaching} className="h-80 w-full  "></img>
               <div className="md:h-2"></div>
             </div>
           </div>
@@ -172,7 +172,7 @@ function App() {
                 practice mental math to create a path. Front-end: React,
                 TypeScript Back-end Next.js
               </p>
-              <img alt="" src={AlienPathway} className="h-80  w-120"></img>
+              <img alt="" src={AlienPathway} className="h-80  w-full"></img>
               <div className="md:h-2"></div>
             </a>
           </div>
