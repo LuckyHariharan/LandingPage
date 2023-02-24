@@ -23,9 +23,8 @@ import personusing from "./person-dealing-with-a-social-media-issue.png";
 
 function App() {
   return (
-    // <div className="grid grid-rows-4 bg-[url(https://images.unsplash.com/photo-1489189642444-0709966aec44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80)] ">
-    <div className="grid w-full min-w-screen font-roboto  text-slate-700  z-50">
-      <nav className="px-2 z-50  border-gray-200 bg-gradient-to-r from-purple-900 to-indigo-900">
+    <div className="grid font-roboto  text-slate-700  ">
+      <nav className="px-2  border-gray-200 bg-gradient-to-r from-purple-900 to-indigo-900">
         <div className="mr-0 md:mr-24 flex flex-wrap justify-center md:justify-center mx-auto">
           <div className=" ">
             <img
