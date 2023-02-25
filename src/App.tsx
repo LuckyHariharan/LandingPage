@@ -1,6 +1,4 @@
-import resume from "./LakshmanHariharanresume.jpg";
 import hero1 from "./busy-project-manager-overwhelmed-by-work.png";
-import hero2 from "./hero2.png";
 import donating from "./person-donating.png";
 import reactpng from "./REACTPNG.png";
 import coaching from "./coaching.png";
@@ -23,58 +21,52 @@ import personusing from "./person-dealing-with-a-social-media-issue.png";
 
 function App() {
   return (
-    <div className="grid font-roboto  text-slate-700  ">
-      <nav className="px-2  border-gray-200 bg-gradient-to-r from-purple-900 to-indigo-900">
+    <div className="grid font-roboto text-slate-700">
+      <nav className="px-2 border-gray-200 bg-gradient-to-r from-purple-900 to-indigo-900">
         <div className="mr-0 md:mr-24 flex flex-wrap justify-center md:justify-center mx-auto">
-          <div className=" ">
-            <img
-              src={donating}
-              className="h-0 sm:h-24 mr-3 xl"
-              alt="Flowbite Logo"
-            />
-          </div>
+          <img
+            src={donating}
+            className="h-0 sm:h-24 mr-3 xl"
+            alt="Flowbite Logo"
+          />
           <div className="flex justify-center flex-col">
             <span className="text-4xl font-semibold whitespace-nowrap dark:text-white">
               Lakshman 'Lucky' Hariharan
             </span>
-            <p className="flex place-content-center text-2xl text-white px-4 whitespace-normal ">
+            <p className="flex justify-center text-2xl text-white px-4">
               Front End Software Engineer
             </p>
-
-            <div className="flex border-2 place-content-center text-white space-x-8">
+            <div className="flex border-2 justify-center text-white space-x-8">
               <a
-                className=" hover:animate-[pulse_1.5s]"
+                className="hover:animate-pulse"
                 href="https://drive.google.com/file/d/1ri6q6CdXIXWJEO63b7Lt0uyG661GfOBM/view?usp=sharing"
               >
-                {" "}
                 Resume
               </a>
               <a
-                className="hover:animate-[pulse_1.5s]"
+                className="hover:animate-pulse"
                 href="https://github.com/LuckyHariharan"
               >
                 GitHub
               </a>
               <a
-                className="hover:animate-[pulse_1.5s]"
+                className="hover:animate-pulse"
                 href="https://www.linkedin.com/in/lakshman-hariharan"
               >
                 LinkedIn
               </a>
             </div>
           </div>
-
-          <div className="md:hidden  w-full text-lg  " id="navbar-multi-level">
-            <ul className="flex flex-col justify-contents-center p-4 mt-4 border border-gray-100 rounded-lg  md:flex-row md:mt-0  ">
+          <div className="md:hidden w-full text-lg" id="navbar-multi-level">
+            <ul className="flex flex-col justify-center p-4 mt-4 border border-gray-100 rounded-lg md:flex-row md:mt-0">
               <li>
                 <a
                   href="#about"
-                  className="block  py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+                  className="block py-2 pl-3 pr-4 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
                   About
                 </a>
               </li>
-
               <li>
                 <a
                   href="#projects"
@@ -104,7 +96,6 @@ function App() {
         </div>
       </nav>
 
-      <div className="hidden w-full  md:w-auto " id="navbar-default"></div>
       <div
         id="about"
         className=" w-full h-4 text-lg text-white space-y-4  bg-gradient-to-r from-purple-600 to-indigo-900  "
