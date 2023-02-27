@@ -39,7 +39,7 @@ function App() {
             <div className="flex border-2 justify-center text-white space-x-8">
               <a
                 className="hover:animate-pulse"
-                href="https://drive.google.com/file/d/1ri6q6CdXIXWJEO63b7Lt0uyG661GfOBM/view?usp=sharing"
+                href="https://drive.google.com/file/d/1C8IPbbJYd0bSmS4AV-Oj2f3ByhL_Q3VY/view?usp=sharing"
               >
                 Resume
               </a>
