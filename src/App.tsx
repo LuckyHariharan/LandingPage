@@ -24,15 +24,20 @@ function App() {
     <div className="grid font-roboto text-slate-700">
       <nav className="px-2 border-gray-200 bg-gradient-to-r from-purple-900 to-indigo-900">
         <div className="mr-0 md:mr-24 flex flex-wrap justify-center md:justify-center mx-auto">
-          <img
-            src={donating}
-            className="h-0 sm:h-24 mr-3 xl"
-            alt="Flowbite Logo"
-          />
-          <div className="flex justify-center flex-col">
-            <span className="text-4xl font-semibold whitespace-nowrap dark:text-white">
-              Lakshman 'Lucky' Hariharan
-            </span>
+          <img src={donating} className="h-24 mr-3 xl" alt="Flowbite Logo" />
+          <div className="flex sm:justify-center justify-end flex-col">
+            <div className="flex  sm:flex-row flex-col">
+              <span className="text-4xl font-semibold text-center dark:text-white">
+                Lakshman{" "}
+              </span>
+
+              <span className="text-4xl font-semibold text-center dark:text-white">
+                'Lucky'
+              </span>
+              <span className="text-4xl font-semibold text-center dark:text-white">
+                Hariharan
+              </span>
+            </div>
             <p className="flex justify-center text-2xl text-white px-4">
               Front End Software Engineer
             </p>
