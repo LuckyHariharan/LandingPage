@@ -17,17 +17,20 @@ import jest from "./JESTWEBP.webp";
 import redux from "./Reduxpng.png";
 import R from "./RPNG.png";
 import VBA from "./vba.png";
-import personusing from "./person-dealing-with-a-social-media-issue.png";
-
+import submit from "./submit.png";
 function App() {
   return (
     <div className="grid font-roboto text-slate-700">
-      <nav className="px-2 border-gray-200 bg-gradient-to-r from-purple-900 to-indigo-900">
+      <nav className="px-2 border-gray-200 bg-gradient-to-r from-violet-900 to-indigo-900">
         <div className="mr-0 md:mr-24 flex flex-wrap justify-center md:justify-center mx-auto">
-          <img src={donating} className="h-24 mr-3 xl" alt="Flowbite Logo" />
+          <img
+            src={donating}
+            className="h-0 sm:h-24 mr-3 xl"
+            alt="Flowbite Logo"
+          />
           <div className="flex sm:justify-center justify-end flex-col">
-            <div className="flex  sm:flex-row flex-col">
-              <span className="text-4xl font-semibold text-center dark:text-white">
+            <div className="flex  sm:flex-row flex-col space-x-4">
+              <span className="text-4xl  font-semibold text-center dark:text-white">
                 Lakshman{" "}
               </span>
 
@@ -103,14 +106,14 @@ function App() {
 
       <div
         id="about"
-        className=" w-full h-4 text-lg text-white space-y-4  bg-gradient-to-r from-purple-600 to-indigo-900  "
+        className=" w-full h-4 text-lg text-white space-y-4  bg-gradient-to-r from-violet-600 to-indigo-900  "
       >
         {/* <a href="mailto:lharihar@uwaterloo.ca">Email</a> */}
 
         {/* // Nav bar to navigate through portfolio pieces */}
       </div>
 
-      <div className="grid  grid-cols-1 md:grid-cols-[3fr_2fr] text-white text-xl p-8  bg-gradient-to-r from-purple-500 to-indigo-900 ">
+      <div className="grid  grid-cols-1 md:grid-cols-[3fr_2fr] text-white text-xl p-8  bg-gradient-to-r from-violet-500 to-indigo-900 ">
         <div className="flex flex-col flex-wrap place-content-center ">
           <h1 className="text-4xl flex md:align-center  ">
             Hello! My name is Lucky, and I am a front end developer!
@@ -134,7 +137,7 @@ function App() {
       </div>
       <div
         id="projects"
-        className=" py-20 text-white items-center bg-gradient-to-r from-purple-500 to-indigo-900 "
+        className=" py-20 text-white items-center bg-gradient-to-r from-violet-500 to-indigo-900 "
       >
         <h1 className="text-4xl flex justify-center ">PROJECTS</h1>
         <div className=" place-items-center">
@@ -175,35 +178,33 @@ function App() {
       </div>
       <div
         id="skills"
-        className="text-white py-12 flex justify-center bg-gradient-to-r from-purple-500 to-indigo-900 "
+        className="text-white py-12 flex justify-center bg-gradient-to-r from-violet-500 to-indigo-900 "
       >
         <h1 className="text-4xl">SKILLS</h1>
       </div>
-      <div className="text-white  grid grid-cols-3 sm:grid-col:2 text-xl space-y-2 justify-items-center align-middle bg-gradient-to-r from-purple-500 to-indigo-900">
+      <div className="text-white  grid grid-cols-3 md:grid-cols-5 sm:grid-col:2 text-xl space-y-2 justify-items-center align-middle bg-gradient-to-r from-violet-500 to-indigo-900">
         <div>
-          <p className="align-middle">React</p>
-          <img className="h-16 w-full" src={reactpng} alt="" />
+          <img className="h-20 w-full" src={reactpng} alt="" />
         </div>
         <div>
-          TypeScript
           <img className="h-16 w-16" src={TypeScriptpng} alt="" />
         </div>
         <div>
-          JavaScript <img className="h-16 w-16" alt="" src={JavaScriptpng} />
+          <img className="h-16 w-16" alt="" src={JavaScriptpng} />
         </div>
 
         <div>
-          TailwindCSS <img className="h-16 w-16" alt="" src={tailwindcsspng} />
+          <img className="h-16 w-16" alt="" src={tailwindcsspng} />
         </div>
 
         <div>
-          HTML5 <img className="h-16 w-16" alt="" src={htmlpng} />
+          <img className="h-16 w-16" alt="" src={htmlpng} />
         </div>
         <div>
-          CSS3 <img className="h-16 w-16" alt="" src={css} />
+          <img className="h-16 w-16" alt="" src={css} />
         </div>
         <div>
-          GraphQL <img className="h-16 w-16" alt="" src={graphqlpng} />
+          <img className="h-16 w-16" alt="" src={graphqlpng} />
         </div>
         <div>
           Next.js <img className="h-16 w-16" alt="" src={nextjspng} />
@@ -231,7 +232,7 @@ function App() {
         </div>
       </div>
 
-      <div className="text-black py-12 grid grid-cols-[20px_1fr_20px] bg-gradient-to-r from-purple-500 to-indigo-900">
+      <div className="text-black py-12 grid grid-cols-[20px_1fr_20px] bg-gradient-to-r from-violet-500 to-indigo-900">
         <div></div>
         <form
           action="https://getform.io/f/501c4b9f-b28b-46aa-a746-858fb243f3da"
@@ -255,19 +256,19 @@ function App() {
               id="message"
               className="border-2 p-2 h-40"
             ></textarea>
-            <div>
+            <div className="flex justify-center">
               <button
                 type="submit"
-                className="border-2 w-full flex justify-center"
+                className="flex justify-center"
                 name="Submit"
               >
-                <img src={personusing} alt="" className="h-16 mr-8" />
+                <img src={submit} alt="" className="h-16 mr-8" />
               </button>
             </div>
           </div>
         </form>
       </div>
-      <div className="bg-gradient-to-r from-purple-500 to-indigo-900"> </div>
+      <div className="bg-gradient-to-r from-violet-500 to-indigo-900"> </div>
     </div>
   );
 }
