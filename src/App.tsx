@@ -184,9 +184,9 @@ function App() {
       >
         <h1 className="text-4xl">SKILLS</h1>
       </div>
-      <div className="text-white  grid grid-cols-3 md:grid-cols-5 sm:grid-col:2 text-xl space-y-12 justify-items-center align-middle bg-gradient-to-r from-violet-500 to-indigo-900">
+      <div className="text-white  grid grid-cols-3 md:grid-cols-5 sm:grid-col:2 text-xl space-y-12 justify-items-center bg-gradient-to-r from-violet-500 to-indigo-900">
         <div>
-          <img className="h-20 w-full" src={reactpng} alt="" />
+          <img className="h-20 w-full mt-12" src={reactpng} alt="" />
         </div>
         <div>
           <img className="h-20 w-full" src={TypeScriptpng} alt="" />
