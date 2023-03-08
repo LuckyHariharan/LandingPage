@@ -7,7 +7,7 @@ import JavaScriptpng from "./javascriptwebp.webp";
 import tailwindcsspng from "./tailwindcss.png";
 import htmlpng from "./hmlt5png.png";
 import TypeScriptpng from "./typescriptpng.png";
-import css from "./CSSJPEG.jpg";
+import css from "./CSSPNG.png";
 import graphqlpng from "./graphql.png";
 import nextjspng from "./NextJSPNG.png";
 import agilepng from "./agilepng.png";
@@ -129,50 +129,52 @@ function App() {
             React, Redux, TailwindCSS, Jest, and GraphQL.
           </p>{" "}
         </div>
-        <img
-          alt=""
-          className="md:h-100 w-full md:mt-20 font-size"
-          src={hero1}
-        ></img>
+        <img alt="" className="md:h-100 w-full md:mt-20 " src={hero1}></img>
       </div>
       <div
         id="projects"
         className=" py-20 text-white items-center bg-gradient-to-r from-violet-500 to-indigo-900 "
       >
-        <h1 className="text-4xl flex justify-center ">PROJECTS</h1>
-        <div className=" place-items-center">
-          <div>
-            <p className="text-2xl flex justify-center">Coaching Dashboard</p>{" "}
-            <div className="grid  md:grid-cols-[20px_140px_1fr_20px] grid-cols-1">
-              <div className=" md:h-2"></div>
-              <p className="py-4 ">
+        <h1 className="text-4xl flex justify-center">PROJECTS</h1>
+        <div className="flex flex-col items-center">
+          <div className="w-full md:w-2/3 lg:w-1/2">
+            <p className="text-2xl text-center">Coaching Dashboard</p>
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 my-4">
+              <div className="col-span-1"></div>
+              <p className="col-span-5">
                 Developed a coaching dashboard to allow Skillify coaches to view
-                every students progress at a glance. The tech stack includes:
-                TypeScript, React, TailwindCSS, Redux, and Jest for unit
+                every student's progress at a glance. The tech stack includes:
+                TypeScript, React, Tailwind CSS, Redux, and Jest for unit
                 testing.
               </p>
-              <img alt="" src={coaching} className="h-80 w-full  "></img>
-              <div className="md:h-2"></div>
+              <img
+                src={coaching}
+                alt=""
+                className="w-full h-80 object-cover rounded-lg col-span-4"
+              />
             </div>
           </div>
 
-          <div className="  ">
-            <p className="text-2xl flex justify-center">React Games</p>{" "}
-          </div>
-          <div>
-            <a
-              className="grid  md:grid-cols-[20px_140px_1fr_20px] grid-cols-1"
-              href="https://www.mathchamp.ca/games/AlienPathway"
-            >
-              <div className="md:h-2"></div>
-              <p>
-                Fully scoped and built an alienpathway boardgame where students
-                practice mental math to create a path. Front-end: React,
-                TypeScript Back-end Next.js
+          <div className="w-full md:w-2/3 lg:w-1/2">
+            <p className="text-2xl text-center">React Games</p>
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-4 my-4">
+              <div className="col-span-1"></div>
+              <p className="col-span-5">
+                Fully scoped and built an Alien Pathway board game where
+                students practice mental math to create a path. Front-end:
+                React, TypeScript; Back-end: Next.js.
               </p>
-              <img alt="" src={AlienPathway} className="h-80  w-full"></img>
-              <div className="md:h-2"></div>
-            </a>
+              <a
+                href="https://www.mathchamp.ca/games/AlienPathway"
+                className="col-span-4"
+              >
+                <img
+                  src={AlienPathway}
+                  alt=""
+                  className="w-full h-80 object-cover rounded-lg"
+                />
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -182,53 +184,53 @@ function App() {
       >
         <h1 className="text-4xl">SKILLS</h1>
       </div>
-      <div className="text-white  grid grid-cols-3 md:grid-cols-5 sm:grid-col:2 text-xl space-y-2 justify-items-center align-middle bg-gradient-to-r from-violet-500 to-indigo-900">
+      <div className="text-white  grid grid-cols-3 md:grid-cols-5 sm:grid-col:2 text-xl space-y-12 justify-items-center align-middle bg-gradient-to-r from-violet-500 to-indigo-900">
         <div>
           <img className="h-20 w-full" src={reactpng} alt="" />
         </div>
         <div>
-          <img className="h-16 w-16" src={TypeScriptpng} alt="" />
+          <img className="h-20 w-full" src={TypeScriptpng} alt="" />
         </div>
         <div>
-          <img className="h-16 w-16" alt="" src={JavaScriptpng} />
-        </div>
-
-        <div>
-          <img className="h-16 w-16" alt="" src={tailwindcsspng} />
+          <img className="h-20 w-full" alt="" src={JavaScriptpng} />
         </div>
 
         <div>
-          <img className="h-16 w-16" alt="" src={htmlpng} />
+          <img className="h-20 w-full" alt="" src={tailwindcsspng} />
+        </div>
+
+        <div>
+          <img className="h-20 w-full" alt="" src={htmlpng} />
         </div>
         <div>
-          <img className="h-16 w-16" alt="" src={css} />
+          <img className="h-20 w-full" alt="" src={css} />
         </div>
         <div>
-          <img className="h-16 w-16" alt="" src={graphqlpng} />
+          <img className="h-20 w-full" alt="" src={graphqlpng} />
         </div>
         <div>
-          Next.js <img className="h-16 w-16" alt="" src={nextjspng} />
+          <img className="h-20 w-full" alt="" src={nextjspng} />
         </div>
         <div>
-          Agile <img className="h-16 w-16" alt="" src={agilepng} />
+          <img className="h-20 w-full" alt="" src={agilepng} />
         </div>
         <div>
-          Python <img className="h-16 w-16" alt="" src={pythonpng} />
+          <img className="h-20 w-full" alt="" src={pythonpng} />
         </div>
         <div>
-          Git <img className="h-16 w-16" alt="" src={git} />
+          <img className="h-20 w-full" alt="" src={git} />
         </div>
         <div>
-          Jest <img className="h-16 w-16" alt="" src={jest} />
+          <img className="h-20 w-full" alt="" src={jest} />
         </div>
         <div>
-          Redux <img className="h-16 w-16" alt="" src={redux} />
+          <img className="h-20 w-full" alt="" src={redux} />
         </div>
         <div>
-          R <img className="h-16 w-16" alt="" src={R} />
+          <img className="h-20 w-full" alt="" src={R} />
         </div>
         <div>
-          VBA <img className="h-16 w-16" alt="" src={VBA} />
+          <img className="h-20 w-full" alt="" src={VBA} />
         </div>
       </div>
 
