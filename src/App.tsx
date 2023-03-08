@@ -29,7 +29,7 @@ function App() {
             alt="Flowbite Logo"
           />
           <div className="flex sm:justify-center justify-end flex-col">
-            <div className="flex  sm:flex-row flex-col space-x-4">
+            <div className="flex flex-row space-x-4">
               <span className="text-4xl  font-semibold text-center dark:text-white">
                 Lakshman{" "}
               </span>
