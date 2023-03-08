@@ -227,7 +227,10 @@ function App() {
         </div>
       </div>
 
-      <div className="text-black py-12 grid grid-cols-[20px_1fr_20px] bg-gradient-to-r from-violet-500 to-indigo-900">
+      <div
+        id="contact"
+        className="text-black py-12 grid grid-cols-[20px_1fr_20px]T bg-gradient-to-r from-violet-500 to-indigo-900"
+      >
         <div></div>
         <form
           action="https://getform.io/f/501c4b9f-b28b-46aa-a746-858fb243f3da"
