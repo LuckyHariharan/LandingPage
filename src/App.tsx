@@ -20,7 +20,7 @@ import VBA from "./vba.png";
 import submit from "./submit.png";
 function App() {
   return (
-    <div className=" text-slate-700">
+    <div className="grid font-roboto text-slate-700">
       <nav className="px-2 border-gray-200 bg-gradient-to-r from-violet-900 to-indigo-900">
         <div className="mr-0 md:mr-24 flex flex-wrap justify-center md:justify-center mx-auto">
           <img
@@ -31,7 +31,14 @@ function App() {
           <div className="flex sm:justify-center justify-end flex-col">
             <div className="flex flex-row space-x-4">
               <span className="text-4xl  font-semibold text-center dark:text-white">
-                Lakshman 'Lucky' Hariharan
+                Lakshman{" "}
+              </span>
+
+              <span className="text-4xl font-semibold text-center dark:text-white">
+                'Lucky'
+              </span>
+              <span className="text-4xl font-semibold text-center dark:text-white">
+                Hariharan
               </span>
             </div>
             <p className="flex justify-center text-2xl text-white px-4">
