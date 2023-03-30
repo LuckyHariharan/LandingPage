@@ -13,23 +13,28 @@ const Contact = () => {
         action="https://getform.io/f/501c4b9f-b28b-46aa-a746-858fb243f3da"
         method="POST"
       >
-        <div className="flex flex-col space-y-4">
+        <div className="flex flex-col text-xl md:place-items-center w-full space-y-4">
           <label htmlFor="name">Name:</label>
-          <input type="text" name="Name" id="name" className="border-2 p-2" />
+          <input
+            type="text"
+            name="Name"
+            id="name"
+            className="border-2 p-2  w-full"
+          />
 
           <label htmlFor="email">Email:</label>
           <input
             type="email"
             name="Email"
             id="email"
-            className="border-2 p-2"
+            className="border-2 p-2 w-full"
           />
 
           <label htmlFor="message">Message:</label>
           <textarea
             name="Message"
             id="message"
-            className="border-2 p-2 h-40"
+            className="border-2 p-2 h-40  w-full"
           ></textarea>
           <div className="flex justify-center">
             <button type="submit" className="flex justify-center" name="Submit">

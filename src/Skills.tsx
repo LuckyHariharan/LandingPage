@@ -27,9 +27,9 @@ const Skills = () => {
       className="text-black bg-white py-12 flex flex-col justify-center place-items-center"
     >
       <h1 className="text-4xl">SKILLS</h1>
-      <div className="text-white  grid grid-cols-3 md:grid-cols-5 sm:grid-col:2 text-xl space-y-12 justify-items-center ">
+      <div className="text-white  grid grid-cols-3 md:grid-cols-5 sm:grid-col:2 text-xl space-y-12 space-x-8 justify-items-center ">
         <div>
-          <img className="h-20 w-full mt-12" src={reactpng} alt="" />
+          <img className="h-20 w-full ml-4 mt-12" src={reactpng} alt="" />
         </div>
         <div>
           <img className="h-20 w-full" src={TypeScriptpng} alt="" />
@@ -37,6 +37,8 @@ const Skills = () => {
         <div>
           <img className="h-20 w-full" alt="" src={JavaScriptpng} />
         </div>
+
+        <img className="h-20 w-40" alt="" src={kotlin} />
 
         <div>
           <img className="h-20 w-full" alt="" src={tailwindcsspng} />
@@ -65,9 +67,6 @@ const Skills = () => {
         </div>
         <div>
           <img className="h-20 w-full" alt="" src={jest} />
-        </div>
-        <div className="align-top ">
-          <img className="" alt="" src={kotlin} />
         </div>
         <div>
           <img className="h-20 w-full" alt="" src={R} />
