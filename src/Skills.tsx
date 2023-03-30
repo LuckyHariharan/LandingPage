@@ -9,6 +9,7 @@ import tailwindcsspng from "./tailwindcss.png";
 import htmlpng from "./hmlt5png.png";
 import TypeScriptpng from "./typescriptpng.png";
 import css from "./CSSPNG.png";
+import kotlin from "./Kotlin.jpg";
 import graphqlpng from "./graphql.png";
 import nextjspng from "./NextJSPNG.png";
 import agilepng from "./agilepng.png";
@@ -21,7 +22,10 @@ import VBA from "./vba.png";
 import submit from "./submit.png";
 const Skills = () => {
   return (
-    <div id="skills" className="text-black py-12 flex flex-col justify-center">
+    <div
+      id="skills"
+      className="text-black bg-white py-12 flex flex-col justify-center place-items-center"
+    >
       <h1 className="text-4xl">SKILLS</h1>
       <div className="text-white  grid grid-cols-3 md:grid-cols-5 sm:grid-col:2 text-xl space-y-12 justify-items-center ">
         <div>
@@ -62,8 +66,8 @@ const Skills = () => {
         <div>
           <img className="h-20 w-full" alt="" src={jest} />
         </div>
-        <div>
-          <img className="h-20 w-full" alt="" src={redux} />
+        <div className="align-top ">
+          <img className="" alt="" src={kotlin} />
         </div>
         <div>
           <img className="h-20 w-full" alt="" src={R} />
