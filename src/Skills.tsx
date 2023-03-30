@@ -39,7 +39,9 @@ const Skills = () => {
         </div>
 
         <img className="h-20 w-40" alt="" src={kotlin} />
-
+        <div>
+          <img className="h-20 w-full" alt="" src={pythonpng} />
+        </div>
         <div>
           <img className="h-20 w-full" alt="" src={tailwindcsspng} />
         </div>
@@ -59,9 +61,7 @@ const Skills = () => {
         <div>
           <img className="h-20 w-full" alt="" src={agilepng} />
         </div>
-        <div>
-          <img className="h-20 w-full" alt="" src={pythonpng} />
-        </div>
+
         <div>
           <img className="h-20 w-full" alt="" src={git} />
         </div>
