@@ -1,10 +1,12 @@
 import React from "react";
+import hero1 from "./busy-project-manager-overwhelmed-by-work.png";
+
 import submit from "./submit.png";
 const Contact = () => {
   return (
     <div
       id="contact"
-      className="text-black py-12 grid grid-cols-[20px_1fr_20px] bg-gradient-to-r from bg-gray-400 to bg-gray-200"
+      className="text-black py-12 grid grid-cols-[20px_1fr_20px] "
     >
       <div></div>
       <form

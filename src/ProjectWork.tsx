@@ -1,9 +1,9 @@
 import React from "react";
 
-function Projects() {
+function ProjectWork() {
   return (
-    <div id="projects" className="py-20 text-black:">
-      <h1 className="text-4xl flex justify-center">PROJECTS</h1>
+    <div id="ProjectWork" className="py-20 text-black:">
+      <h1 className="text-4xl flex justify-center">ProjectWork</h1>
       <div className="flex flex-col items-center">
         <div className="w-full md:w-2/3 lg:w-1/2">
           <p className="text-2xl text-center">Coaching Dashboard</p>
@@ -21,4 +21,4 @@ function Projects() {
   );
 }
 
-export default Projects;
+export default ProjectWork;
