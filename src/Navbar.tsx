@@ -24,13 +24,13 @@ const Navbar = () => {
           />
         </svg>
         <span className="font-semibold text-xl tracking-tight inline-block">
-          Lakshman Hariharan
+          Lakshman 'Lucky' Hariharan
         </span>
       </div>
       <div className="block lg:hidden">
         <button
           onClick={() => handleClick(hidden)}
-          className="flex items-center px-3 py-2 border rounded  hover:text-white hover:border-white"
+          className="flex items-center px-3 py-2 border rounded   hover:border-white"
         >
           <svg
             className="fill-current h-3 w-3"

@@ -1,4 +1,4 @@
-import About from "./About";
+import About from "./AboutMe";
 import Contact from "./Contact";
 import Navbar from "./Navbar";
 import ProjectWork from "./ProjectWork";
