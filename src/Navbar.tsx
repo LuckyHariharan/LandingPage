@@ -6,8 +6,8 @@ const Navbar = () => {
     setHidden(!prev);
   };
   return (
-    <nav className=" items-center justify-between bg-white p-4 grid-cols-4">
-      <div className="flex items-center">
+    <nav className=" flex items-center flex-col text-black justify-between bg-white p-4 grid-cols-4">
+      <div className="flex">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
@@ -40,10 +40,12 @@ const Navbar = () => {
             />
           </svg>
         </button>
-        <div className={` ${hidden ? "hidden md:block" : ""}`}>
+      </div>
+      <div>
+        <div className={`menu-options ${hidden ? "hidden" : ""}`}>
           <ul
             id="nav-menu"
-            className="space-y-2 flex flex-col font-semibold text-xl  text-right"
+            className="space-y-2 flex flex-col font-semibold text-xl"
           >
             <li>Menu Item</li>
             <li>Menu Item</li>

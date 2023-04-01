@@ -38,7 +38,7 @@ const Contact = () => {
           ></textarea>
           <div className="flex justify-center">
             <button type="submit" className="flex justify-center" name="Submit">
-              <img src={submit} alt="" className="h-16 opacity-80" />
+              <img src={submit} alt="" className="h-8 opacity-80" />
             </button>
           </div>
         </div>
