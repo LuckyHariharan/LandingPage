@@ -24,7 +24,7 @@ const Skills = () => {
   return (
     <div
       id="skills"
-      className="text-black bg-white py-12 flex flex-col justify-center place-items-center"
+      className="text-black border-4 bg-white py-12 flex flex-col justify-center place-items-center"
     >
       <h1 className="text-4xl">SKILLS</h1>
       <div className="text-white  grid grid-cols-3 md:grid-cols-5 sm:grid-col:2 text-xl space-y-12 space-x-8 justify-items-center ">
