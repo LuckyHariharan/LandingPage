@@ -26,53 +26,57 @@ const SkillsComponent = () => {
       id="Skills"
       className="text-black border-4 bg-white py-12 flex flex-col justify-center place-items-center"
     >
-      <h1 className="text-4xl">Skills</h1>
-      <div className="text-white  grid grid-cols-3 md:grid-cols-5 sm:grid-col:2 text-xl space-y-12 space-x-8 justify-items-center ">
+      <h1 className="text-6xl">Skills</h1>
+      <div className="text-white place- mr-8 grid grid-cols-3 md:grid-cols-5 sm:grid-col:2 text-xl space-y-12 space-x-8 justify-items-center ">
         <div>
-          <img className="h-20 w-full ml-4 mt-12" src={reactpng} alt="" />
+          <img
+            className="h-16 w-full md:h-28 ml-4 mt-12"
+            src={reactpng}
+            alt=""
+          />
         </div>
         <div>
-          <img className="h-20 w-full" src={TypeScriptpng} alt="" />
+          <img className="h-16 w-full md:h-28" src={TypeScriptpng} alt="" />
         </div>
         <div>
-          <img className="h-20 w-full" alt="" src={JavaScriptpng} />
-        </div>
-
-        <img className="h-20 w-40" alt="" src={kotlin} />
-        <div>
-          <img className="h-20 w-full" alt="" src={pythonpng} />
-        </div>
-        <div>
-          <img className="h-20 w-full" alt="" src={tailwindcsspng} />
+          <img className="h-16 w-full md:h-28" alt="" src={JavaScriptpng} />
         </div>
 
+        <img className="h-16 w-full md:h-28" alt="" src={kotlin} />
         <div>
-          <img className="h-20 w-full" alt="" src={htmlpng} />
+          <img className="h-16 w-full md:h-28" alt="" src={pythonpng} />
         </div>
         <div>
-          <img className="h-20 w-full" alt="" src={css} />
-        </div>
-        <div>
-          <img className="h-20 w-full" alt="" src={graphqlpng} />
-        </div>
-        <div>
-          <img className="h-20 w-full" alt="" src={nextjspng} />
-        </div>
-        <div>
-          <img className="h-20 w-full" alt="" src={agilepng} />
+          <img className="h-16 w-full md:h-28" alt="" src={tailwindcsspng} />
         </div>
 
         <div>
-          <img className="h-20 w-full" alt="" src={git} />
+          <img className="h-16 w-full md:h-28" alt="" src={htmlpng} />
         </div>
         <div>
-          <img className="h-20 w-full" alt="" src={jest} />
+          <img className="h-16 w-full md:h-28" alt="" src={css} />
         </div>
         <div>
-          <img className="h-20 w-full" alt="" src={R} />
+          <img className="h-16 w-full md:h-28" alt="" src={graphqlpng} />
         </div>
         <div>
-          <img className="h-20 w-full" alt="" src={VBA} />
+          <img className="h-16 w-full md:h-28" alt="" src={nextjspng} />
+        </div>
+        <div>
+          <img className="h-16 w-full md:h-28" alt="" src={agilepng} />
+        </div>
+
+        <div>
+          <img className="h-16 w-full md:h-28" alt="" src={git} />
+        </div>
+        <div>
+          <img className="h-16 w-full md:h-28" alt="" src={jest} />
+        </div>
+        <div>
+          <img className="h-16 w-full md:h-28" alt="" src={R} />
+        </div>
+        <div>
+          <img className="h-16 w-full md:h-28" alt="" src={VBA} />
         </div>
       </div>
     </div>

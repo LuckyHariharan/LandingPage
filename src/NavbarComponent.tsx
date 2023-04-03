@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import hero1 from "./profile.jpg";
 
 const NavbarComponent = () => {
   const [hidden, setHidden] = useState(true);
@@ -13,7 +14,7 @@ const NavbarComponent = () => {
             xmlns="<http://www.w3.org/2000/svg>"
             viewBox="0 0 20 20"
             fill="currentColor"
-            className="h-12 w-12 mx-2 md:hidden group-hover:fill-blue-500"
+            className="h-10 w-10 mx-2 md:hidden group-hover:fill-blue-500"
           >
             <path
               fill-rule="evenodd"
@@ -29,7 +30,7 @@ const NavbarComponent = () => {
             viewBox="0 0 24 24"
             strokeWidth="1.5"
             stroke="black"
-            className="h-16 inline-block mr-2  mt-2"
+            className="h-10 md:h-16 inline-block mr-2  mt-2"
           >
             <path
               strokeLinecap="round"
@@ -53,11 +54,11 @@ const NavbarComponent = () => {
         <div className={`menu-options ${hidden ? "hidden " : ""}`}>
           <ul
             id="nav-menu"
-            className="space-y-2 items-center py-4 flex md:flex-row flex-col font-semibold text-xl mt-4"
+            className="space-y-2 items-center px-4 flex flex-col  font-semibold text-xl mt-4"
           >
-            <li>Menu Item</li>
-            <li>Menu Item</li>
-            <li>Menu Item</li>
+            <a href="#Skills">Skills</a>
+            <a href="#ProjectWork">Projects</a>
+            <a href="#Contact">Contact</a>
           </ul>
         </div>
       </div>
