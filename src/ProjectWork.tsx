@@ -5,7 +5,7 @@ function ProjectWork() {
     <div id="ProjectWork" className="py-20 text-black:">
       <h1 className="text-4xl flex justify-center">ProjectWork</h1>
       <div className="flex flex-col items-center">
-        <div className=" w-3/4 md:w-2/3 lg:w-1/2">
+        <div className=" w-3/4 md:w-2/3 lg:w-3/4`">
           <p className="text-2xl text-center">Coaching Dashboard</p>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-4 my-4">
             <div className="col-span-1"></div>
