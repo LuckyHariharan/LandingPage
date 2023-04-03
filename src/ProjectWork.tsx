@@ -25,6 +25,12 @@ function ProjectWork() {
           student's progress at a glance. The tech stack includes: TypeScript,
           React, Tailwind CSS, Redux, and Jest for unit testing.
         </p>
+        <img src={AP} />
+        <p className="">
+          Wrote a technical design for React quizzes to serve as marketing
+          material. These quizzes are designed to save user preferences and
+          return their selected coding career, language etc.
+        </p>
       </div>
     </div>
   );

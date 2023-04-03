@@ -42,11 +42,11 @@ const NavbarComponent = () => {
         <div> </div>
         <ul
           id="nav-menu"
-          className=" justify-items-end   hidden md:grid md:grid-cols-3 space-x-8 mr-20 items-center font-semibold text-2xl "
+          className=" space-x-12  hidden md:flex  mr-20 items-center font-semibold text-2xl "
         >
-          <a href="#Skills">Menu Item</a>
-          <a href="#ProjectWork">Menu Item</a>
-          <a href="#Contact">Menu Item</a>
+          <a href="#Skills">Skills</a>
+          <a href="#ProjectWork">Projects</a>
+          <a href="#Contact">Contact</a>
         </ul>
       </div>
       <div>
