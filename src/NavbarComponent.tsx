@@ -22,7 +22,7 @@ const NavbarComponent = () => {
             />
           </svg>
         </button>{" "}
-        <div className="font-semibold flex place-items-center text-3xl md:text-5xl ">
+        <div className="font-semibold flex place-items-center mr-auto text-3xl  md:text-5xl ">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -39,13 +39,14 @@ const NavbarComponent = () => {
           </svg>
           Lucky Hariharan
         </div>
+        <div> </div>
         <ul
           id="nav-menu"
-          className="grid justify-items-end place font-semibold text-xl "
+          className=" justify-items-end   hidden md:grid md:grid-cols-3 space-x-8 mr-20 items-center font-semibold text-2xl "
         >
-          <li>Menu Item</li>
-          <li>Menu Item</li>
-          <li>Menu Item</li>
+          <a href="#Skills">Menu Item</a>
+          <a href="#ProjectWork">Menu Item</a>
+          <a href="#Contact">Menu Item</a>
         </ul>
       </div>
       <div>

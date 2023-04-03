@@ -5,7 +5,7 @@ import submit from "./submit.png";
 const Contact = () => {
   return (
     <div
-      id="contact"
+      id="Contact"
       className="text-black bg-white py-12 grid grid-cols-[20px_1fr_20px] "
     >
       <div></div>
