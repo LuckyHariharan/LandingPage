@@ -6,7 +6,7 @@ const AboutMe = () => {
     <div className="grid grid-cols-1 place-items-center py-4 md:grid-cols-[3fr_5fr] text-black  px-8 ">
       <img
         alt=""
-        className=" md:w-2/3  ml-0 w-40  border-4 border-gray-400"
+        className=" md:w-2/3  mr-4 w-40  border-4 border-gray-400"
         src={hero1}
       />{" "}
       <div className="flex flex-col place-content-center space-y-8">
