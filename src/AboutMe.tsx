@@ -15,11 +15,12 @@ const AboutMe = () => {
           <a href="https://www.skillify.ca" className="text-blue-600 underline">
             Skillify
           </a>{" "}
-          a Toronto based startup that provides digital media literacy coaching.
-          Lucky graduated from the University of Waterloo in 2021 as an
-          Actuarial Science major and in 2022 transitioned actuarial work into
-          frontend development, in addition to learning Kotlin and mobile
-          development.
+          Meet Lucky, a frontend developer at Skillify, a Toronto-based startup
+          that offers digital media literacy coaching. Lucky completed an
+          Actuarial Science degree at the University of Waterloo in 2021.
+          However, in 2022, Lucky decided to pivot towards frontend development.
+          Lucky has since gained valuable experience in this field, as well as
+          learned Kotlin and mobile development.
         </p>
       </div>
     </div>
