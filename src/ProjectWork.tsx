@@ -1,39 +1,44 @@
 import React from "react";
-import AP from "./ap.png";
-import CD from "./coaching.png";
+import coachingDashboardImg from "./coaching.png";
+import personalityQuizImg from "./PersonalityQuiz.png";
+import reactQuizzesImg from "./ap.png";
 
-function ProjectWork() {
+const ProjectWork: React.FC = () => {
   return (
-    <div id="ProjectWork" className="py-20 text-black:">
-      <h1 className="text-4xl flex justify-center">ProjectWork</h1>
-      <div className="flex flex-col items-center">
-        <div className=" w-3/4 md:w-2/3 lg:w-3/4`">
-          <p className="text-2xl text-center">Coaching Dashboard</p>
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 my-4">
-            <div className="col-span-1"></div>
-          </div>
-        </div>
-        <img src={CD} />
+    <div id="project-work" className="py-20 text-black">
+      <h1 className="text-4xl flex justify-center">Project Work</h1>
+      <h2 className="text-2xl text-center">Coaching Dashboard</h2>
+
+      <div className="px-4 py-8 lg:px-40 md:px-40 grid grid-cols-1 md:grid-cols-[1fr_100px_1fr] text-2xl items-center place-content-center ">
+        <img src={coachingDashboardImg} alt="Coaching Dashboard" />
+        <div></div>
+
         <p className="">
           Developed a coaching dashboard to allow Skillify coaches to view every
-          student's progress at a glance. The tech stack includes: TypeScript,
+          student's progress at a glance. The tech stack includes TypeScript,
           React, Tailwind CSS, Redux, and Jest for unit testing.
         </p>
-        <img src={AP} />
+        <img src={personalityQuizImg} alt="Personality Quiz" />
+        <div></div>
+
         <p className="">
-          Developed a coaching dashboard to allow Skillify coaches to view every
-          student's progress at a glance. The tech stack includes: TypeScript,
-          React, Tailwind CSS, Redux, and Jest for unit testing.
+          Developed a personality quiz to help users discover their ideal coding
+          career, language, etc. The quiz saves user preferences and returns the
+          result. The tech stack includes TypeScript, React, Tailwind CSS, and
+          Jest for unit testing.
         </p>
-        <img src={AP} />
+
+        <img src={reactQuizzesImg} alt="React Quizzes" />
+        <div></div>
+
         <p className="">
-          Wrote a technical design for React quizzes to serve as marketing
-          material. These quizzes are designed to save user preferences and
-          return their selected coding career, language etc.
+          Created technical designs for React quizzes to serve as marketing
+          material. The quizzes are designed to be engaging and informative for
+          users. The tech stack includes TypeScript, React, and Tailwind CSS.
         </p>
       </div>
     </div>
   );
-}
+};
 
 export default ProjectWork;
