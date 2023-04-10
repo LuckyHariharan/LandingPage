@@ -27,7 +27,7 @@ const SkillsComponent = () => {
       className="text-black border-4 bg-white py-12 flex flex-col justify-center place-items-center"
     >
       <h1 className="text-6xl">Skills</h1>
-      <div className="text-white mr-8 grid grid-cols-3 md:grid-cols-6 sm:grid-col:2 text-xl space-y-12 space-x-8 justify-items-center ">
+      <div className="text-white  grid grid-cols-3 md:grid-cols-6 text-xl space-y-12 space-x-4 justify-items-center ">
         <div>
           <img
             className="h-16 w-full md:h-28 ml-4 mt-12"
@@ -52,11 +52,6 @@ const SkillsComponent = () => {
         <div>
           <img className="h-16 w-full md:h-28" alt="" src={css} />
         </div>
-        <div>
-          <img className="h-16 w-full md:h-28" alt="" src={tailwindcsspng} />
-        </div>
-        <img className="h-16 md:w-28 w-16 md:h-32" alt="" src={pythonpng} />
-
         <div>
           <img className="h-16  md:h-32 mb-0 md:mb-8" alt="" src={graphql} />
         </div>
