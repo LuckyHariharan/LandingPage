@@ -6,8 +6,7 @@ import reactQuizzesImg from "./ap.png";
 const ProjectWork: React.FC = () => {
   return (
     <div id="project-work" className="py-20 text-black">
-      <h1 className="text-4xl flex justify-center">Project Work</h1>
-      <h2 className="text-2xl text-center">Coaching Dashboard</h2>
+      <h1 className="text-6xl flex justify-center">Project Work</h1>
 
       <div className="px-4 py-8 lg:px-40 md:px-40 grid grid-cols-1 md:grid-cols-[1fr_100px_1fr] text-2xl items-center place-content-center ">
         <img src={coachingDashboardImg} alt="Coaching Dashboard" />

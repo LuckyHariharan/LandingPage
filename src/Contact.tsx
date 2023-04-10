@@ -14,7 +14,7 @@ const Contact = () => {
         method="POST"
       >
         <div className="flex flex-col text-xl mx-4 lg:mx-40 md:place-items-cente space-y-4">
-          <h1 className="text-4xl flex place-content-center">Chat with me!</h1>
+          <h1 className="text-6xl flex place-content-center">Chat with me!</h1>
 
           <label htmlFor="name">Name:</label>
           <input
