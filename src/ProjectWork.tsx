@@ -1,6 +1,6 @@
 import React from "react";
 import coachingDashboardImg from "./coaching.png";
-import personalityQuizImg from "./PersonalityQuiz.png";
+import personalityQuizImg from "./PQ.png";
 import reactQuizzesImg from "./ap.png";
 
 const ProjectWork: React.FC = () => {
