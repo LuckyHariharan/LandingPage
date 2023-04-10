@@ -10,7 +10,7 @@ import htmlpng from "./hmlt5png.png";
 import TypeScriptpng from "./typescriptpng.png";
 import css from "./CSSPNG.png";
 import kotlin from "./Kotlin.jpg";
-import graphqlpng from "./graphql.png";
+import graphql from "./graphql.jpg";
 import nextjspng from "./NextJSPNG.png";
 import agilepng from "./agilepng.png";
 import pythonpng from "./pythonpng.png";
@@ -27,7 +27,7 @@ const SkillsComponent = () => {
       className="text-black border-4 bg-white py-12 flex flex-col justify-center place-items-center"
     >
       <h1 className="text-6xl">Skills</h1>
-      <div className="text-white place- mr-8 grid grid-cols-3 md:grid-cols-5 sm:grid-col:2 text-xl space-y-12 space-x-8 justify-items-center ">
+      <div className="text-white mr-8 grid grid-cols-3 md:grid-cols-6 sm:grid-col:2 text-xl space-y-12 space-x-8 justify-items-center ">
         <div>
           <img
             className="h-16 w-full md:h-28 ml-4 mt-12"
@@ -42,12 +42,8 @@ const SkillsComponent = () => {
           <img className="h-16 w-full md:h-28" alt="" src={JavaScriptpng} />
         </div>
 
-        <img className="h-16 w-full md:h-28" alt="" src={kotlin} />
         <div>
-          <img className="h-16 w-full md:h-28" alt="" src={pythonpng} />
-        </div>
-        <div>
-          <img className="h-16 w-full md:h-28" alt="" src={tailwindcsspng} />
+          <img className="h-16 w-full md:h-28" alt="" src={kotlin} />
         </div>
 
         <div>
@@ -57,7 +53,12 @@ const SkillsComponent = () => {
           <img className="h-16 w-full md:h-28" alt="" src={css} />
         </div>
         <div>
-          <img className="h-16 w-full md:h-28" alt="" src={graphqlpng} />
+          <img className="h-16 w-full md:h-28" alt="" src={tailwindcsspng} />
+        </div>
+        <img className="h-16 md:w-28 w-16 md:h-32" alt="" src={pythonpng} />
+
+        <div>
+          <img className="h-16  md:h-32 mb-0 md:mb-8" alt="" src={graphql} />
         </div>
         <div>
           <img className="h-16 w-full md:h-28" alt="" src={nextjspng} />
@@ -68,15 +69,6 @@ const SkillsComponent = () => {
 
         <div>
           <img className="h-16 w-full md:h-28" alt="" src={git} />
-        </div>
-        <div>
-          <img className="h-16 w-full md:h-28" alt="" src={jest} />
-        </div>
-        <div>
-          <img className="h-16 w-full md:h-28" alt="" src={R} />
-        </div>
-        <div>
-          <img className="h-16 w-full md:h-28" alt="" src={VBA} />
         </div>
       </div>
     </div>
