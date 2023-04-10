@@ -53,7 +53,7 @@ const AboutMe = () => {
             Skillify
           </a>{" "}
           a Toronto-based startup that offers digital media literacy coaching.
-          In 2021 I earned an Actuarial Science degree from the University of
+          In 2021, I earned an Actuarial Science degree from the University of
           Waterloo and decided later next year to pivot towards software
           development. In addition to gaining valuable experience in this field,
           I am learning Kotlin and mobile development.
