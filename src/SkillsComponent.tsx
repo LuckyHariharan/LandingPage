@@ -27,7 +27,7 @@ const SkillsComponent = () => {
       className="text-black border-4 bg-white py-4 flex flex-col justify-center place-items-center"
     >
       <h1 className="text-5xl md:text-6xl ">Skills</h1>
-      <div className="text-white  grid grid-cols-2 sm:grid-cols-5 text-xl space-y-8 space-x-4 justify-items-center ">
+      <div className="text-white  grid grid-cols-2 sm:grid-cols-5 text-xl space-y-8 space-x-2 md:space-x-4 justify-items-center ">
         <div>
           <img
             className="h-20 w-full mt-8 md:h-28"
@@ -55,7 +55,7 @@ const SkillsComponent = () => {
           <img className="h-20 w-full md:h-28" alt="" src={kotlin} />
         </div>
         <div>
-          <img className="h-24 w-full md:h-32" src={reactpng} alt="" />
+          <img className="h-24  md:h-32 mr-0 md:mr-6" src={reactpng} alt="" />
         </div>
         <div>
           <img
