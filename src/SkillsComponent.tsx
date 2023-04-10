@@ -41,16 +41,19 @@ const SkillsComponent = () => {
             alt=""
             src={JavaScriptpng}
           />
+        </div>{" "}
+        <div>
+          <img className="h-20 md:h-28 mr-4" alt="" src={htmlpng} />
+        </div>
+        <div>
+          <img className="h-20 md:h-28 " alt="" src={css} />
+        </div>{" "}
+        <div>
+          <img className="h-20  md:h-28 mr-4" alt="" src={git} />
         </div>
         <div>
           <img className="h-20 w-full md:h-28" alt="" src={kotlin} />
         </div>
-        <div>
-          <img className="h-20 w-full md:h-28 ml-4" alt="" src={htmlpng} />
-        </div>
-        <div>
-          <img className="h-20 w-full md:h-28 mr-4" alt="" src={css} />
-        </div>{" "}
         <div>
           <img className="h-24 w-full md:h-32" src={reactpng} alt="" />
         </div>
@@ -66,9 +69,6 @@ const SkillsComponent = () => {
         </div>
         <div>
           <img className="h-20 w-full md:h-28" alt="" src={agilepng} />
-        </div>
-        <div>
-          <img className="h-20 w-full md:h-28" alt="" src={git} />
         </div>
       </div>
     </div>
