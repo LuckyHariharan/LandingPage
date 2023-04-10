@@ -12,7 +12,7 @@ const NavbarComponent = () => {
         <button onClick={() => handleClick(hidden)}>
           <svg
             xmlns="<http://www.w3.org/2000/svg>"
-            viewBox="0 0 20 20"
+            viewBox="0 0 20 16"
             fill="currentColor"
             className="h-10 w-10 mx-2 md:hidden group-hover:fill-blue-500"
           >
@@ -57,7 +57,7 @@ const NavbarComponent = () => {
             className="space-y-2 items-center px-4 flex flex-col  font-semibold text-xl mt-4"
           >
             <a href="#Skills">Skills</a>
-            <a href="#project-work">Projects</a>
+            <a href="#ProjectWork">Projects</a>
             <a href="#Contact">Contact</a>
           </ul>
         </div>
