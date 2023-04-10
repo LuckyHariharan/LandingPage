@@ -39,10 +39,9 @@ const ProjectWork: React.FC = () => {
         <div></div>
 
         <p className="">
-          Created technical designs for React games to serve as practice for
-          students learning thier multiplication tables. The games are designed
-          to be engaging for users and the tech stack includes TypeScript,
-          React, and Tailwind CSS.
+          Scoped and created React games for students learning thier
+          multiplication tables. The games are designed to be engaging for users
+          and the tech stack includes TypeScript, React, and Tailwind CSS.
         </p>
       </div>
     </div>
