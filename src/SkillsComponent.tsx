@@ -24,46 +24,46 @@ const SkillsComponent = () => {
   return (
     <div
       id="Skills"
-      className="text-black border-4 bg-white py-12 flex flex-col justify-center place-items-center"
+      className="text-black border-4 bg-white py-4 flex flex-col justify-center place-items-center"
     >
       <h1 className="text-6xl">Skills</h1>
-      <div className="text-white  grid grid-cols-3 md:grid-cols-6 text-xl space-y-12 space-x-4 justify-items-center ">
+      <div className="text-white  grid grid-cols-2 sm:grid-cols-5 text-xl space-y-8 space-x-4 justify-items-center ">
         <div>
           <img
-            className="h-16 w-full md:h-28 ml-4 mt-12"
+            className="h-20 w-full md:h-28 ml-4 mt-12"
             src={reactpng}
             alt=""
           />
         </div>
         <div>
-          <img className="h-16 w-full md:h-28" src={TypeScriptpng} alt="" />
+          <img className="h-20 w-full md:h-28" src={TypeScriptpng} alt="" />
         </div>
         <div>
-          <img className="h-16 w-full md:h-28" alt="" src={JavaScriptpng} />
-        </div>
-
-        <div>
-          <img className="h-16 w-full md:h-28" alt="" src={kotlin} />
+          <img className="h-20 w-full md:h-28" alt="" src={JavaScriptpng} />
         </div>
 
         <div>
-          <img className="h-16 w-full md:h-28" alt="" src={htmlpng} />
-        </div>
-        <div>
-          <img className="h-16 w-full md:h-28" alt="" src={css} />
-        </div>
-        <div>
-          <img className="h-16  md:h-32 mb-0 md:mb-8" alt="" src={graphql} />
-        </div>
-        <div>
-          <img className="h-16 w-full md:h-28" alt="" src={nextjspng} />
-        </div>
-        <div>
-          <img className="h-16 w-full md:h-28" alt="" src={agilepng} />
+          <img className="h-20 w-full md:h-28" alt="" src={kotlin} />
         </div>
 
         <div>
-          <img className="h-16 w-full md:h-28" alt="" src={git} />
+          <img className="h-20 w-full md:h-28" alt="" src={htmlpng} />
+        </div>
+        <div>
+          <img className="h-20 w-full md:h-28" alt="" src={css} />
+        </div>
+        <div>
+          <img className="h-20  md:h-32 mb-0 md:mb-8" alt="" src={graphql} />
+        </div>
+        <div>
+          <img className="h-20 w-full md:h-28" alt="" src={nextjspng} />
+        </div>
+        <div>
+          <img className="h-20 w-full md:h-28" alt="" src={agilepng} />
+        </div>
+
+        <div>
+          <img className="h-20 w-full md:h-28" alt="" src={git} />
         </div>
       </div>
     </div>
