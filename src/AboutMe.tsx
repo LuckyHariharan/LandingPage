@@ -7,10 +7,10 @@ const AboutMe = () => {
       <div className="space-y-4 grid place-items-center">
         <img
           alt=""
-          className=" md:w-2/3 w-3/4  lg:w-1/2 max-h-80  border-4 border-gray-400"
+          className=" md:w-1/2 w-3/4  lg:w-1/2 max-h-100  border-4 border-gray-400"
           src={hero1}
         />{" "}
-        <div className="flex  md:space-x-16 space-x-8   place-content-center md:place-content-start md:py-0  px-16 md:px-20 ">
+        <div className="flex  md:space-x-12 space-x-8   place-content-center md:place-content-start md:py-0   md:px-20 ">
           <a href="https://www.linkedin.com/in/lakshman-hariharan/">
             <svg
               xmlns="http://www.w3.org/2000/svg"
