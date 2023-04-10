@@ -9,7 +9,11 @@ const ProjectWork: React.FC = () => {
       <h1 className="text-6xl flex justify-center">Project Work</h1>
 
       <div className="px-4 py-8 lg:px-40 md:px-40 grid grid-cols-1 md:grid-cols-[1fr_100px_1fr] text-2xl items-center place-content-center ">
-        <img src={coachingDashboardImg} alt="Coaching Dashboard" />
+        <img
+          src={coachingDashboardImg}
+          className="border-4"
+          alt="Coaching Dashboard"
+        />
         <div></div>
 
         <p className="">
@@ -17,7 +21,11 @@ const ProjectWork: React.FC = () => {
           student's progress at a glance. The tech stack includes TypeScript,
           React, Tailwind CSS, Redux, and Jest for unit testing.
         </p>
-        <img src={personalityQuizImg} alt="Personality Quiz" />
+        <img
+          src={personalityQuizImg}
+          className="border-4"
+          alt="Personality Quiz"
+        />
         <div></div>
 
         <p className="">
@@ -27,7 +35,7 @@ const ProjectWork: React.FC = () => {
           Jest for unit testing.
         </p>
 
-        <img src={reactQuizzesImg} alt="React Quizzes" />
+        <img src={reactQuizzesImg} className="border-4" alt="React Quizzes" />
         <div></div>
 
         <p className="">
