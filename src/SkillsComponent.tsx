@@ -26,7 +26,7 @@ const SkillsComponent = () => {
       id="Skills"
       className="text-black border-4 bg-white py-4 flex flex-col justify-center place-items-center"
     >
-      <h1 className="text-6xl">Skills</h1>
+      <h1 className="text-5xl md:text-6xl ">Skills</h1>
       <div className="text-white  grid grid-cols-2 sm:grid-cols-5 text-xl space-y-8 space-x-4 justify-items-center ">
         <div>
           <img
