@@ -31,9 +31,10 @@ const ProjectWork: React.FC = () => {
         <div></div>
 
         <p className="">
-          Created technical designs for React quizzes to serve as marketing
-          material. The quizzes are designed to be engaging and informative for
-          users. The tech stack includes TypeScript, React, and Tailwind CSS.
+          Created technical designs for React games to serve as practice for
+          students learning thier multiplication tables. The games are designed
+          to be engaging for users and the tech stack includes TypeScript,
+          React, and Tailwind CSS.
         </p>
       </div>
     </div>
