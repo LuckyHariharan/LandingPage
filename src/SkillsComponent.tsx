@@ -30,30 +30,32 @@ const SkillsComponent = () => {
       <div className="text-white  grid grid-cols-2 sm:grid-cols-5 text-xl space-y-8 space-x-4 justify-items-center ">
         <div>
           <img
-            className="h-20 w-full md:h-28 ml-4 mt-12"
-            src={reactpng}
+            className="h-20 w-full mt-8 md:h-28"
+            src={TypeScriptpng}
             alt=""
           />
         </div>
         <div>
-          <img className="h-20 w-full md:h-28" src={TypeScriptpng} alt="" />
+          <img className="h-20 w-28 md:h-28 mr-8" alt="" src={JavaScriptpng} />
         </div>
-        <div>
-          <img className="h-20 w-full md:h-28" alt="" src={JavaScriptpng} />
-        </div>
-
         <div>
           <img className="h-20 w-full md:h-28" alt="" src={kotlin} />
         </div>
-
         <div>
-          <img className="h-20 w-full md:h-28" alt="" src={htmlpng} />
+          <img className="h-20 w-full md:h-28 ml-4" alt="" src={htmlpng} />
         </div>
         <div>
-          <img className="h-20 w-full md:h-28" alt="" src={css} />
+          <img className="h-20 w-full md:h-28 mr-4" alt="" src={css} />
+        </div>{" "}
+        <div>
+          <img className="h-24 w-full md:h-32" src={reactpng} alt="" />
         </div>
         <div>
-          <img className="h-20  md:h-32 mb-0 md:mb-8" alt="" src={graphql} />
+          <img
+            className="h-20  md:h-32 mb-0 md:mb-4 mt-2 mr-4"
+            alt=""
+            src={graphql}
+          />
         </div>
         <div>
           <img className="h-20 w-full md:h-28" alt="" src={nextjspng} />
@@ -61,7 +63,6 @@ const SkillsComponent = () => {
         <div>
           <img className="h-20 w-full md:h-28" alt="" src={agilepng} />
         </div>
-
         <div>
           <img className="h-20 w-full md:h-28" alt="" src={git} />
         </div>
