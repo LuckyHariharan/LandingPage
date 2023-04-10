@@ -36,7 +36,11 @@ const SkillsComponent = () => {
           />
         </div>
         <div>
-          <img className="h-20 w-28 md:h-28 mr-8" alt="" src={JavaScriptpng} />
+          <img
+            className="h-20 w-20 md:w-28 md:h-28 mr-0 md:mr-8"
+            alt=""
+            src={JavaScriptpng}
+          />
         </div>
         <div>
           <img className="h-20 w-full md:h-28" alt="" src={kotlin} />
