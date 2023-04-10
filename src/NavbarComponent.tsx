@@ -57,7 +57,7 @@ const NavbarComponent = () => {
             className="space-y-2 items-center px-4 flex flex-col  font-semibold text-xl mt-4"
           >
             <a href="#Skills">Skills</a>
-            <a href="#ProjectWork">Projects</a>
+            <a href="#project-work">Projects</a>
             <a href="#Contact">Contact</a>
           </ul>
         </div>
