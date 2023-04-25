@@ -14,7 +14,7 @@ const NavbarComponent = () => {
             xmlns="<http://www.w3.org/2000/svg>"
             viewBox="0 0 20 16"
             fill="currentColor"
-            className="h-10 w-10 mx-2 md:hidden group-hover:fill-blue-500"
+            className="h-10 w-10 mx-2 md:hidden hover:bg-sky-500 "
           >
             <path
               fill-rule="evenodd"
@@ -30,7 +30,7 @@ const NavbarComponent = () => {
             viewBox="0 0 24 24"
             strokeWidth="1.5"
             stroke="black"
-            className="h-10 md:h-16 inline-block   mt-2"
+            className="h-10 md:h-16 inline-block hover:bg-sky-500  mt-2"
           >
             <path
               strokeLinecap="round"
@@ -40,14 +40,28 @@ const NavbarComponent = () => {
           </svg>
           <div className="mt-2 mr-4">Lucky Hariharan</div>
         </div>
-        <div> </div>
         <ul
           id="nav-menu"
           className=" space-x-12  hidden md:flex  mr-20 items-center font-semibold text-2xl "
         >
-          <a href="#Skills">Skills</a>
-          <a href="#ProjectWork">Projects</a>
-          <a href="#Contact">Contact</a>
+          <a
+            href="#Skills"
+            className=" hover:underline  hover:decoration-sky-500 "
+          >
+            Skills
+          </a>
+          <a
+            href="#ProjectWork hover:underline "
+            className="hover:underline hover:decoration-sky-500"
+          >
+            Projects
+          </a>
+          <a
+            href="#Contact hover:underline  "
+            className="hover:underline hover:decoration-sky-500"
+          >
+            Contact
+          </a>
         </ul>
       </div>
       <div>
