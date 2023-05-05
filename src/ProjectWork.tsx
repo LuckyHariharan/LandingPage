@@ -8,7 +8,7 @@ const ProjectWork: React.FC = () => {
     <div id="ProjectWork" className="py-20 text-black">
       <h1 className="text-5xl md:text-6xl flex justify-center">Project Work</h1>
 
-      <div className="px-4 py-8 lg:px-40 md:px-40 grid grid-cols-1 md:grid-cols-[1fr_100px_1fr] text-2xl items-center place-content-center ">
+      <div className="px-4 py-8 lg:px-40 md:px-40 grid grid-cols-1 xl:grid-cols-[1fr_100px_1fr] text-2xl items-center place-content-center ">
         <img
           src={coachingDashboardImg}
           className="border-4"
