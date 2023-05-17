@@ -39,7 +39,7 @@ const ProjectWork: React.FC = () => {
         <div></div>
 
         <p className="">
-          Scoped and created React games for students learning thier
+          Scoped and created React games for students learning their
           multiplication tables. The games are designed to be engaging for users
           and the tech stack includes TypeScript, React, and Tailwind CSS.
         </p>
