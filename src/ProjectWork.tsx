@@ -5,10 +5,13 @@ import reactQuizzesImg from "./ap.png";
 
 const ProjectWork: React.FC = () => {
   return (
-    <div id="ProjectWork" className="py-20 text-black">
+    <div
+      id="ProjectWork"
+      className="bg-[url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=forma)] py-20 text-black"
+    >
       <h1 className="text-5xl md:text-6xl flex justify-center">Project Work</h1>
 
-      <div className="px-4 py-8 space-y-4 lg:px-40 md:px-40 grid grid-cols-1 xl:grid-cols-[1fr_100px_1fr] text-2xl items-center place-content-center ">
+      <div className=" px-4 py-8 space-y-4 lg:px-40 md:px-40 grid grid-cols-1 xl:grid-cols-[1fr_100px_1fr] text-2xl items-center place-content-center ">
         <a href="https://www.skillify.ca" className="text-blue-600 underline">
           <img
             src={coachingDashboardImg}

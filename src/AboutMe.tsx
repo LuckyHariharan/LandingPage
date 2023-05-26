@@ -3,7 +3,7 @@ import hero1 from "./profile.jpg";
 import linkedin from "./assets/linkedin.svg";
 const AboutMe = () => {
   return (
-    <div className="grid grid-cols-1 place-items-center py-4 md:grid-cols-2 text-black  ">
+    <div className="bg-[url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=forma)] grid grid-cols-1 place-items-center py-4 md:grid-cols-2 text-black  ">
       <div className="space-y-4 grid place-items-center">
         <img
           alt=""
