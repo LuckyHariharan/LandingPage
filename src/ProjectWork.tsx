@@ -11,27 +11,30 @@ const ProjectWork: React.FC = () => {
     >
       <h1 className="text-5xl md:text-6xl flex justify-center">Project Work</h1>
 
-      <div className=" px-4 py-8 space-y-4 lg:px-40 md:px-40 grid grid-cols-1 xl:grid-cols-[1fr_100px_1fr] text-2xl items-center place-content-center ">
+      <div className="px-4 py-8 space-y-4 lg:px-40 md:px-40 grid grid-cols-1 xl:grid-cols-[1fr_100px_1fr] text-2xl items-center place-content-center ">
         <a href="https://www.skillify.ca" className="text-blue-600 underline">
           <img
             src={coachingDashboardImg}
-            className="border-4 hover:opacity-75"
+            className="border-4 hover:scale-105 transform transition-transform duration-300"
             alt="Coaching Dashboard"
-          />{" "}
-        </a>{" "}
+          />
+        </a>
         <div></div>
         <p className="">
           Developed a coaching dashboard to allow Skillify coaches to view every
           student's progress at a glance. The tech stack includes TypeScript,
           React, Tailwind CSS, Redux, and Jest for unit testing.
-        </p>{" "}
-        <a href="https://www.skillify.ca" className="text-blue-600 underline">
+        </p>
+        <a
+          href="https://skillify.ca/resources/quizzes/careerQuiz"
+          className="text-blue-600 underline"
+        >
           <img
             src={personalityQuizImg}
-            className="border-4 hover:opacity-75"
+            className="border-4 hover:scale-105 transform transition-transform duration-300"
             alt="Personality Quiz"
           />
-        </a>{" "}
+        </a>
         <div></div>
         <p className="">
           Developed a personality quiz to help users discover their ideal coding
@@ -42,10 +45,10 @@ const ProjectWork: React.FC = () => {
         <a href="https://www.skillify.ca" className="text-blue-600 underline">
           <img
             src={reactQuizzesImg}
-            className="border-4 hover:opacity-75"
+            className="border-4 hover:scale-105 transform transition-transform duration-300"
             alt="React Quizzes"
-          />{" "}
-        </a>{" "}
+          />
+        </a>
         <div></div>
         <p className="">
           Scoped and created React games for students learning their

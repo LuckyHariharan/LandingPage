@@ -51,13 +51,13 @@ const NavbarComponent = () => {
             Skills
           </a>
           <a
-            href="#ProjectWork hover:underline "
+            href="#ProjectWork "
             className="hover:underline hover:decoration-sky-500"
           >
             Projects
           </a>
           <a
-            href="#Contact hover:underline  "
+            href="#Contact "
             className="hover:underline hover:decoration-sky-500"
           >
             Contact

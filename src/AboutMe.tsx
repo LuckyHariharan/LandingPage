@@ -4,10 +4,28 @@ import linkedin from "./assets/linkedin.svg";
 const AboutMe = () => {
   return (
     <div className="bg-[url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=forma)] grid grid-cols-1 place-items-center py-4 md:grid-cols-2 text-black  ">
+      <p className="md:hidden py-4 px-8 md:mr-22 text-2xl md:text-3xl leading-normal md:leading-relaxed">
+        Software Developer with 2+ years of experience with TypeScript, Kotlin,
+        and Python.{" "}
+        {/* <a href="https://www.skillify.ca" className="text-blue-600 underline">
+          Skillify
+        </a>{" "} */}
+      </p>{" "}
+      <p className="hidden md:block py-4 px-8 md:mr-22 text-2xl md:text-3xl leading-normal md:leading-relaxed">
+          I'm Lucky, a frontend engineer at{" "}
+          <a href="https://www.skillify.ca" className="text-blue-600 underline">
+            Skillify
+          </a>{" "}
+          a Toronto-based startup that offers digital media literacy coaching.
+          In 2021, I earned an Actuarial Science degree from the University of
+          Waterloo and decided later next year to pivot towards software
+          development. In addition to gaining valuable experience in this field,
+          I am learning Kotlin and mobile development.
+        </p>{" "}
       <div className="space-y-4 grid place-items-center">
         <img
           alt=""
-          className=" md:h-full w-3/4 max-h-100  border-4 border-gray-400"
+          className=" md:h-full w-1/2 max-h-100  border-4 border-gray-400"
           src={hero1}
         />{" "}
         <div className="flex  md:space-x-12 space-x-8   place-content-center md:place-content-start md:py-0   md:px-20 ">
@@ -42,18 +60,7 @@ const AboutMe = () => {
         </div>
       </div>
       <div className="flex flex-col place-content-center space-y-8 md:space-y-4">
-        {" "}
-        <p className="py-4 px-8 md:mr-22 text-2xl md:text-3xl leading-normal md:leading-relaxed">
-          I'm Lucky, a frontend engineer at{" "}
-          <a href="https://www.skillify.ca" className="text-blue-600 underline">
-            Skillify
-          </a>{" "}
-          a Toronto-based startup that offers digital media literacy coaching.
-          In 2021, I earned an Actuarial Science degree from the University of
-          Waterloo and decided later next year to pivot towards software
-          development. In addition to gaining valuable experience in this field,
-          I am learning Kotlin and mobile development.
-        </p>
+        
       </div>
     </div>
   );
