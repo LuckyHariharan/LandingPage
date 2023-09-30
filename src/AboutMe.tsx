@@ -12,30 +12,33 @@ const AboutMe = () => {
         </a>{" "} */}
       </p>{" "}
       <p className="hidden md:block py-4 px-8 md:mr-22 text-2xl md:text-3xl leading-normal md:leading-relaxed">
-          I'm Lucky, a frontend engineer at{" "}
-          <a href="https://www.skillify.ca" className="text-blue-600 underline">
-            Skillify
-          </a>{" "}
-          a Toronto-based startup that offers digital media literacy coaching.
-          In 2021, I earned an Actuarial Science degree from the University of
-          Waterloo and decided later next year to pivot towards software
-          development. In addition to gaining valuable experience in this field,
-          I am learning Kotlin and mobile development.
-        </p>{" "}
+        I'm Lucky, a frontend engineer at{" "}
+        <a href="https://www.skillify.ca" className="text-blue-600 underline">
+          Skillify
+        </a>{" "}
+        a Toronto-based startup that offers digital media literacy coaching. In
+        2021, I earned an Actuarial Science degree from the University of
+        Waterloo and decided later next year to pivot towards software
+        development. In addition to gaining valuable experience in this field, I
+        am learning Kotlin and mobile development.
+      </p>{" "}
       <div className="space-y-4 grid place-items-center">
         <img
           alt=""
-          className=" md:h-full w-1/2 max-h-100  border-4 border-gray-400"
+          className=" md:h-full w-1/2 max-h-100  border-4 border-gray-400 "
           src={hero1}
         />{" "}
         <div className="flex  md:space-x-12 space-x-8   place-content-center md:place-content-start md:py-0   md:px-20 ">
           <a
             href="https://www.linkedin.com/in/lakshman-hariharan/"
-            className="hover:shadow  "
+            className="hover:scale-105 transform transition-transform duration-300 "
           >
             <img src={linkedin} alt="linkedin" />
           </a>
-          <a href="https://drive.google.com/file/d/1C8IPbbJYd0bSmS4AV-Oj2f3ByhL_Q3VY/view?usp=sharing">
+          <a
+            href="https://drive.google.com/file/d/1C8IPbbJYd0bSmS4AV-Oj2f3ByhL_Q3VY/view?usp=sharing"
+            className=" hover:scale-105 transform transition-transform duration-300"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 64 64"
@@ -47,7 +50,10 @@ const AboutMe = () => {
               <path d="M14 28h16a1 1 0 0 0 1-1V7a1 1 0 0 0-1-1H14a1 1 0 0 0-1 1v20a1 1 0 0 0 1 1zm1.473-2a7.325 7.325 0 0 1 13.054 0zM29 8v15.164a9.325 9.325 0 0 0-14 0V8z" />
             </svg>
           </a>
-          <a href="https://github.com/LuckyHariharan">
+          <a
+            href="https://github.com/LuckyHariharan"
+            className=" hover:scale-105 transform transition-transform duration-300"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="52"
@@ -59,9 +65,7 @@ const AboutMe = () => {
           </a>
         </div>
       </div>
-      <div className="flex flex-col place-content-center space-y-8 md:space-y-4">
-        
-      </div>
+      <div className="flex flex-col place-content-center space-y-8 md:space-y-4"></div>
     </div>
   );
 };
