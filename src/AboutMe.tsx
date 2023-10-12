@@ -3,7 +3,7 @@ import hero1 from "./profile.jpg";
 import linkedin from "./assets/linkedin.svg";
 const AboutMe = () => {
   return (
-    <div className="bg-[url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=forma)] grid grid-cols-1 place-items-center py-4 md:grid-cols-2 text-black  ">
+    <div className="bg-[url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=forma)] grid grid-cols-1 place-items-center py-4 md:grid-cols-2 text-black ">
       <p className="md:hidden py-4 px-8 md:mr-22 text-2xl md:text-3xl leading-normal md:leading-relaxed">
         Software Developer with 2+ years of experience with TypeScript, Kotlin,
         and Python.{" "}
@@ -11,7 +11,7 @@ const AboutMe = () => {
           Skillify
         </a>{" "} */}
       </p>{" "}
-      <p className="hidden md:block py-4 px-8 md:mr-22 text-2xl md:text-3xl leading-normal md:leading-relaxed">
+      <p className="hidden md:block xl:text-3xl py-4 px-8 md:text-lg md:mr-22 text-2xl md:text-3xl lg:text-lg leading-normal md:leading-relaxed">
         I'm Lucky, a frontend engineer at{" "}
         <a href="https://www.skillify.ca" className="text-blue-600 underline">
           Skillify
@@ -25,7 +25,7 @@ const AboutMe = () => {
       <div className="space-y-4 grid place-items-center">
         <img
           alt=""
-          className=" md:h-full w-1/2 max-h-100  border-4 border-gray-400 "
+          className=" md:h-full md:w-2/3 w-1/2 max-h-100  border-4 border-gray-400 lg:w-2/5 "
           src={hero1}
         />{" "}
         <div className="flex  md:space-x-12 space-x-8   place-content-center md:place-content-start md:py-0   md:px-20 ">
