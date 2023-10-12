@@ -36,7 +36,7 @@ const AboutMe = () => {
             <img src={linkedin} alt="linkedin" />
           </a>
           <a
-            href="https://drive.google.com/file/d/1YVuoKSaNkxsYi6Kx5IrTpQcQyVED9nxF/view?usp=sharing"
+            href="https://drive.google.com/file/d/1dPEBmKfvEZWuffhXRhPfQh9iT_D4zs_N/view?usp=sharing"
             className=" hover:scale-105 transform transition-transform duration-300"
           >
             <svg
